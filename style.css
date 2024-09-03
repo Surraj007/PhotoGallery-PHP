@@ -2,36 +2,36 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #AD49E1, #EBD3F8);
     color: #333;
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .container {
-    width: 90%;
+ width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    margin-top: 50px;
-    border-radius: 10px;
+margin: 0 auto;
+ padding: 20px;
+ background-color: #ffffff;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+margin-top: 50px;
+border-radius: 10px;
 }
 
 .header {
     text-align: center;
     margin-bottom: 30px;
-    animation: fadeInDown 1s ease-out;
+animation: fadeInDown 1s ease-out;
 }
 
 .header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    color: #333;
+font-size: 2.5rem;
+ margin: 0;
+color: #333;
 }
 
 .header p {
-    font-size: 1.1rem;
-    color: #777;
+font-size: 1.1rem;
+color: #777;
 }
 
 .upload-form {
@@ -50,9 +50,9 @@ body {
     background-color: #7A1CAC;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+border-radius: 5px;
+cursor: pointer;
+ transition: background-color 0.3s ease;
 }
 
 .upload-form input[type="submit"]:hover {
@@ -60,19 +60,19 @@ body {
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    animation: fadeIn 1s ease-out;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+animation: fadeIn 1s ease-out;
 }
 
 .gallery-item {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease;
 }
 
 .gallery-item:hover {
@@ -82,8 +82,8 @@ body {
 .gallery-item img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+ object-fit: cover;
+ border-radius: 10px;
 }
 
 .delete-btn {
@@ -95,7 +95,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.2s ease-in-out;
+transition: background-color 0.2s ease-in-out;
 }
 
 .delete-btn:hover {
@@ -104,8 +104,8 @@ body {
 
 .view-image {
     text-align: center;
-    margin-top: 50px;
-    animation: zoomIn 1s ease-out;
+margin-top: 50px;
+animation: zoomIn 1s ease-out;
 }
 
 .view-image img {
@@ -122,9 +122,9 @@ body {
     background-color: #7A1CAC;
     color: white;
     text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
 }
 
 .back-btn:hover {
@@ -144,12 +144,12 @@ body {
 
 @keyframes fadeInUp {
     from {
-        opacity: 0;
-        transform: translateY(30px);
+    opacity: 0;
+    transform: translateY(30px);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+    transform: translateY(0);
     }
 }
 
@@ -158,18 +158,18 @@ body {
         opacity: 0;
     }
     to {
-        opacity: 1;
+    opacity: 1;
     }
 }
 
 @keyframes zoomIn {
     from {
-        opacity: 0;
-        transform: scale(0.5);
+     opacity: 0;
+     transform: scale(0.5);
     }
     to {
-        opacity: 1;
-        transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
     }
 }
 
@@ -179,7 +179,7 @@ body {
     }
 
     .header h1 {
-        font-size: 2rem;
+    font-size: 2rem;
     }
 
     .header p {
